@@ -3,7 +3,7 @@ import type { TaskThree } from '../../../types';
 const StatsCard = ({ active, data }: { active: boolean; data: TaskThree }) => {
   return (
     <div
-      className={`relative flex h-[540px] w-full flex-col justify-between rounded-4xl md:h-[460px] ${
+      className={`relative flex h-[460px] w-full flex-col justify-between rounded-4xl ${
         active ? 'p-10' : 'bg-secondary/10 p-6'
       }`}
     >
@@ -24,7 +24,7 @@ const StatsCard = ({ active, data }: { active: boolean; data: TaskThree }) => {
         >
           <a
             href="#"
-            className="group flex items-center justify-end gap-2 text-end text-xl font-semibold text-white"
+            className="group text-md flex items-center justify-end gap-2 text-end font-semibold text-white sm:text-lg md:text-xl"
           >
             View All Courses{' '}
             <span className="transform transition-all duration-300 ease-in-out group-hover:translate-x-1 group-hover:animate-[arrow_1s_ease-in-out_infinite]">
@@ -72,8 +72,12 @@ const StatsCard = ({ active, data }: { active: boolean; data: TaskThree }) => {
                 : 'text-secondary mt-6 origin-center -rotate-90 transform ps-8'
             }`}
           >
-            <h2 className="pr-8 text-3xl font-bold">{data.title}</h2>
-            <p className="pt-[10px] pr-8">{data.description}</p>
+            <h2 className="pr-8 text-xl font-bold sm:text-2xl md:text-3xl">
+              {data.title}
+            </h2>
+            <p className="pt-[10px] pr-8 text-sm sm:text-lg">
+              {data.description}
+            </p>
           </div>
 
           <div
@@ -83,7 +87,7 @@ const StatsCard = ({ active, data }: { active: boolean; data: TaskThree }) => {
                 : 'text-secondary'
             }`}
           >
-            <span className="relative text-[150px] leading-none font-bold after:absolute after:top-1 after:-right-5 after:text-[64px] after:content-['+']">
+            <span className="relative text-[100px] leading-none font-bold after:absolute after:top-1 after:-right-3 after:text-[44px] after:content-['+'] md:text-[150px] md:after:-right-5 md:after:text-[64px]">
               05
             </span>
           </div>

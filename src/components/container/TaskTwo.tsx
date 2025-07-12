@@ -28,7 +28,7 @@ const TaskTwo = () => {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className={`float-bounce absolute bottom-[-60px] z-10 h-full w-[246px] min-w-[256px] rounded-2xl object-contain transition-transform duration-500 sm:bottom-[-80px] sm:scale-115 ${
+                    className={`float-bounce absolute top-[80px] z-10 h-full w-[166px] rounded-2xl object-contain transition-transform duration-500 sm:bottom-[-80px] sm:scale-115 md:w-[246px] md:min-w-[256px] ${
                       !isEven
                         ? 'right-[-20px] sm:right-[-50px]'
                         : 'left-[-20px] sm:left-[-80px]'
@@ -45,7 +45,7 @@ const TaskTwo = () => {
                     <p className="mt-1 text-xl font-semibold md:text-[24px]">
                       {item.subtitle}
                     </p>
-                    <p className="mt-2 w-[calc(100%-166px)] pt-3 text-sm font-semibold text-gray-300 md:text-lg">
+                    <p className="mt-2 w-[calc(100%-70px)] pt-3 text-sm font-semibold text-gray-300 sm:w-[calc(100%-166px)] md:text-lg">
                       {item.description}
                     </p>
                   </div>
