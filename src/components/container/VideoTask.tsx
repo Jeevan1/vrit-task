@@ -23,7 +23,7 @@ const VideoTask = () => {
   }, []);
 
   return (
-    <div className="mt-16 flex min-h-screen items-center justify-center px-4">
+    <div className="mt-16 flex min-h-screen items-center justify-center">
       <div className="flex flex-wrap">
         {Array(160)
           .fill(0)
@@ -33,7 +33,7 @@ const VideoTask = () => {
             return (
               <div
                 key={index}
-                className={`flex h-20 w-16 items-center justify-center border border-gray-200 transition-colors duration-500 ${
+                className={`flex h-20 min-w-16 flex-1 items-center justify-center border border-gray-200 transition-colors duration-500 ${
                   isHighlighted ? 'bg-blue-500' : 'bg-white'
                 }`}
               ></div>

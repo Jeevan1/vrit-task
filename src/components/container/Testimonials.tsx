@@ -3,7 +3,7 @@ import TesttimonialCard from '../ui/task1/TesttimonialCard';
 
 const Testimonials = () => {
   return (
-    <div className="group flex min-h-screen w-full items-center justify-center overflow-x-hidden px-4">
+    <div className="group flex min-h-screen w-full items-center justify-center overflow-x-hidden">
       <div className="relative">
         <div className="max-w-3xl space-y-5 text-center">
           <p className="text-2xl text-gray-700">

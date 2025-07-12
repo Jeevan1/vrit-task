@@ -4,7 +4,7 @@ import TaskTwoCard from '../ui/task2/TaskTwoCard';
 const TaskTwo = () => {
   return (
     <>
-      <div className="flex min-h-screen w-full items-center justify-center px-4">
+      <div className="flex min-h-screen w-full items-center justify-center">
         <div className="grid w-full max-w-7xl grid-cols-1 gap-8 px-4 md:grid-cols-2 md:gap-16">
           {data.tasktwo.map((item, index) => {
             const isEven = index % 2 === 0;

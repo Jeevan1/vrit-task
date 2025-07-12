@@ -5,7 +5,7 @@ import data from '../../data.json';
 const TaskThree = () => {
   const [active, setActive] = useState(0);
   return (
-    <div className="mt-10 min-h-screen px-4">
+    <div className="mt-10 min-h-screen">
       <div className="max-w-7xl space-y-2">
         <h2 className="text-2xl">
           Explore our classes and master trending skills!

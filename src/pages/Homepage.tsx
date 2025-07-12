@@ -7,20 +7,20 @@ const Homepage = () => {
   return (
     <>
       <section className="flex flex-col gap-20 py-20">
-        <div>
+        <div className="px-4">
           <p className="text-primary mb-4 text-2xl font-bold">1. Task 1</p>
           <Testimonials />
         </div>
-        <div>
+        <div className="px-4">
           <p className="text-primary mb-4 text-2xl font-bold">2. Task 2</p>
           <TaskTwo />
         </div>
 
-        <div>
+        <div className="px-4">
           <p className="text-primary mb-4 text-2xl font-bold">3. Task 3</p>
           <TaskThree />
         </div>
-        <div>
+        <div className="px-4">
           <p className="text-primary mb-4 text-2xl font-bold">4. Video Task</p>
           <VideoTask />
         </div>
