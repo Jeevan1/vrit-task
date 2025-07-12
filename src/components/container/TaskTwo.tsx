@@ -5,7 +5,7 @@ const TaskTwo = () => {
   return (
     <>
       <div className="flex min-h-screen w-full items-center justify-center">
-        <div className="grid w-full max-w-7xl grid-cols-1 gap-8 px-4 md:grid-cols-2 md:gap-16">
+        <div className="grid w-full max-w-7xl grid-cols-1 gap-8 px-4 md:gap-16 lg:grid-cols-2">
           {data.tasktwo.map((item, index) => {
             const isEven = index % 2 === 0;
 
@@ -28,8 +28,10 @@ const TaskTwo = () => {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className={`float-bounce absolute bottom-[-80px] z-10 h-full w-[256px] min-w-[256px] scale-115 rounded-2xl object-contain transition-transform duration-500 ${
-                      !isEven ? 'right-[-50px]' : 'left-[-80px]'
+                    className={`float-bounce absolute bottom-[-60px] z-10 h-full w-[246px] min-w-[256px] rounded-2xl object-contain transition-transform duration-500 sm:bottom-[-80px] sm:scale-115 ${
+                      !isEven
+                        ? 'right-[-20px] sm:right-[-50px]'
+                        : 'left-[-20px] sm:left-[-80px]'
                     }`}
                   />
                   <div

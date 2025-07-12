@@ -6,10 +6,10 @@ const Testimonials = () => {
     <div className="group flex min-h-screen w-full items-center justify-center overflow-x-hidden">
       <div className="relative">
         <div className="max-w-3xl space-y-5 text-center">
-          <p className="text-2xl text-gray-700">
+          <p className="text-gray-700 md:text-2xl">
             Hear How They Level Up Their Game!
           </p>
-          <h2 className="text-3xl font-bold">
+          <h2 className="text-xl font-bold md:text-3xl">
             Skill <span className="text-primary">Matters</span> Unite! 🤝
           </h2>
           <button

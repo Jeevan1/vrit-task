@@ -26,7 +26,7 @@ const TesttimonialCard = ({
         <img
           src={item.image}
           alt={item.name}
-          className={`h-24 w-24 rounded-3xl object-cover ${
+          className={`h-16 w-16 rounded-3xl object-cover md:h-24 md:w-24 ${
             index <= 5
               ? 'group-hover animate-[bottom-center_0.4s_ease-in-out_forwards] group-hover:animate-[top-left_0.4s_ease-in-out_forwards]'
               : 'group-hover animate-[top-center_0.4s_ease-in-out_forwards] group-hover:animate-[bottom-left_0.4s_ease-in-out_forwards]'
