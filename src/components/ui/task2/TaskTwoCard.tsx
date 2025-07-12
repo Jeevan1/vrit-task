@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { TaskTwo } from '../../types';
+import type { TaskTwo } from '../../../types';
 
 const TaskTwoCard = ({ item, isEven }: { item: TaskTwo; isEven: boolean }) => {
   const [active, setActive] = useState(0);

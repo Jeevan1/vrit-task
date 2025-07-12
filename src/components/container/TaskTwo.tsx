@@ -1,5 +1,5 @@
 import data from '../../data.json';
-import TaskTwoCard from '../ui/TaskTwoCard';
+import TaskTwoCard from '../ui/task2/TaskTwoCard';
 
 const TaskTwo = () => {
   return (
