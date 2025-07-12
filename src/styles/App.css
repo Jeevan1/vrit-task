@@ -106,7 +106,7 @@
   transform: translate(150px, 50px);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .group:hover .testimonial__card__1 {
     transform: translate(-80px, 10px);
   }
