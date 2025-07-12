@@ -1,0 +1,170 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Rajesh Dhakal",
+      "title": "Student",
+      "image": "/assets/task1/image1.png",
+      "text": "Lorem ⭐⭐⭐⭐⭐",
+      "animation": "bounce"
+    },
+    {
+      "id": 2,
+      "name": "Rajesh Dhakal",
+      "title": "Student",
+      "image": "/assets/task1/image2.png",
+      "animation": "bounce",
+      "content": {
+        "role": "Digital Marketing Manager",
+        "quote": "I was amazed and impressed by the course structure as it was distinctly different from other courses in the market. The classes were highly interactive and the instructor was very humble and friendly. Recordings of the classes were provided within a short time after each class, which made revision very easy and beneficial. I have recommended the same course to my data-enthusiast friends."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Rajesh Dhakal",
+      "title": "Student",
+      "image": "/assets/task1/like.gif"
+    },
+    {
+      "id": 4,
+      "name": "Rajesh Dhakal",
+      "title": "Student",
+      "image": "/assets/task1/image3.png",
+      "animation": "bounce"
+    },
+    {
+      "id": 5,
+      "name": "Rajesh Dhakal",
+      "title": "Student",
+      "image": "/assets/task1/image4.png",
+      "animation": "bounce"
+    },
+    {
+      "id": 6,
+      "name": "Rajesh Dhakal",
+      "title": "Student",
+      "image": "/assets/task1/happy.gif"
+    },
+    {
+      "id": 7,
+      "name": "Rajesh Dhakal",
+      "title": "Student",
+      "image": "/assets/task1/image5.png",
+      "animation": "bounce"
+    },
+    {
+      "id": 8,
+      "name": "Rajesh Dhakal",
+      "title": "Student",
+      "image": "/assets/task1/trophy.gif"
+    },
+    {
+      "id": 9,
+      "name": "Rajesh Dhakal",
+      "title": "Student",
+      "image": "/assets/task1/image1.png",
+      "animation": "bounce",
+      "video": "/assets/task1/video.mp4"
+    },
+    {
+      "id": 10,
+      "name": "Rajesh Dhakal",
+      "title": "Student",
+      "text": "⭐⭐⭐⭐⭐",
+      "image": "/assets/task1/love.gif"
+    }
+  ],
+  "tasktwo": [
+    {
+      "id": 1,
+      "title": "Start with Clarity",
+      "subtitle": "Step into a better learning path.",
+      "description": "Overwhelmed by too many learning options? SkillShikshya provides a clear, curated roadmap from the start. Whether you're a beginner or upskilling, we have a path tailored to your growth.",
+      "image": "/assets/task2/Group (1).png",
+      "color": "#F45B5B",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Start with Clarity",
+          "image": "/assets/task2/slides/slide1.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Learn by Doing",
+      "subtitle": "Practical skills, real projects.",
+      "description": "Theory is great, but action is better. At SkillShikshya, you learn by doing. Hands-on projects and real-world scenarios help you build, break, and create—leading to true mastery.",
+      "image": "/assets/task2/Group (2).png",
+      "color": "#5492A0",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Start with Clarityss",
+          "image": "/assets/task2/slides/slide2.png"
+        },
+        {
+          "id": 2,
+          "title": "Start with Clarityds",
+          "image": "/assets/task2/slides/slide3.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Get Mentored & Supported",
+      "subtitle": "Build your portfolio, get job-ready.",
+      "description": "Your journey ends with achievement. Each completed project builds a portfolio showcasing your skills and job readiness, bringing you closer to that dream job, promotion, or your own venture.",
+      "image": "/assets/task2/Group (3).png",
+      "color": "#6C64A8",
+      "slides": []
+    },
+    {
+      "id": 4,
+      "title": "Achieve & Showcase",
+      "subtitle": "You're not learning alone.",
+      "description": "Stuck or need feedback? SkillShikshya’s community of mentors and learners has your back with live support, interactive discussions, and expert insights. You’re never on your own.",
+      "image": "/assets/task2/Group (4).png",
+      "color": "#A88964",
+      "slides": []
+    }
+  ],
+  "taskthree": [
+    {
+      "id": 1,
+      "title": "All Courses",
+      "description": "courses you're powering through right now.",
+      "count": "23",
+      "images": [
+        "/assets/task3/image1.png",
+        "/assets/task3/image2.png",
+        "/assets/task3/image3.png",
+        "/assets/task3/image4.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Upcoming Courses",
+      "description": "exciting new courses waiting to boost your skills.",
+      "count": "05",
+      "images": [
+        "/assets/task3/image1.png",
+        "/assets/task3/image2.png",
+        "/assets/task3/image3.png",
+        "/assets/task3/image4.png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ongoing Courses",
+      "description": "currently happening—don’t miss out on the action!",
+      "count": "10",
+      "images": [
+        "/assets/task3/image1.png",
+        "/assets/task3/image2.png",
+        "/assets/task3/image3.png",
+        "/assets/task3/image4.png"
+      ]
+    }
+  ]
+}
