@@ -21,8 +21,8 @@ const TaskThree = () => {
             return (
               <div
                 key={index}
-                className={`w-full cursor-pointer overflow-hidden rounded-3xl transition-[width] duration-700 ease-in-out md:${
-                  isActive ? 'w-1/2' : 'w-1/4'
+                className={`w-full cursor-pointer overflow-hidden rounded-3xl transition-[width] duration-700 ease-in-out ${
+                  isActive ? 'md:w-1/2' : 'md:w-1/4'
                 }`}
                 onClick={() => setActive(index)}
               >
